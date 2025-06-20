@@ -1,0 +1,297 @@
+body {
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: "Chiron Sung HK", serif;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.seccion-contenido {
+  display: none;
+  transition: max-height 0.3s ease;
+}
+
+.seccion.mostrar .seccion-contenido {
+  display: block;
+}
+
+.flecha {
+  transition: transform 0.3s ease;
+  font-size: 1.25vw;
+}
+
+.seccion.mostrar .flecha {
+  transform: rotate(180deg);
+}
+
+.seccion-titulo {
+  display: flex;
+  justify-content: space-between; /* título a la izquierda, flecha a la derecha */
+  align-items: center;
+  cursor: pointer; /* para indicar que es clickeable */
+  user-select: none; /* evita que se seleccione texto al hacer click */
+  padding-right: 10px; /* opcional, para que no quede pegado a la derecha */
+  font-weight: bold;
+}
+
+
+/*************** HOJA TESERACTO ***************/
+
+section {
+    padding: 2% 3%;
+    max-width: 95%;
+    background-color: var(--card-color);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+h2 {
+    text-align: left    ;
+    margin-bottom: 50px;
+    border-bottom: 1px solid var(--text-color);
+    padding-bottom: 10px;
+    font-size: 2.5vw;
+}
+
+h1 {
+    font-size: 4vw;
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 40px;
+}
+
+.imgEstructuraTes{
+    max-width: 10000px;
+    min-width: 100px;
+    width: 20%;
+    height: auto;
+    flex-shrink: 0;
+    background-color: white;
+    display: block;
+    margin: auto;
+}
+
+.noBackgr{
+    background-color: transparent;
+}
+.widt25{
+    width: 25%;
+}
+
+.widt15{
+    width: 15%;
+}
+
+.teseracto-galeria {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-top: 3%;
+}
+
+.video-sectio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-top: 3%;
+    width:80%;
+    height:auto;
+}
+
+.teseracto-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;                 /* Espacio entre texto e imagen */
+    margin-top: 1rem;
+}
+
+.texto-teseracto {
+    flex: 1;
+    max-width: 60%;
+}
+
+@media (max-width: 768px) {
+    .teseracto-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .imgEstructuraTes {
+        max-width: 100%;
+        margin-top: 1rem;
+    }
+    .texto-teseracto {
+        flex: 1;
+        max-width: 100%;
+    }
+}
+
+/******************** Decorgoma *********************/
+.imgCentrada{
+    max-width: 10000px;
+    min-width: 100px;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center;     /* centra verticalmente */
+}
+
+.imgCentrada2{
+    max-width: 10000px;
+    min-width: 100px;
+    width: auto;
+    height: 17%;
+    margin: auto;
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center;     /* centra verticalmente */
+}
+
+.imgCentrada3{
+    max-width: 10000px;
+    min-width: 100px;
+    width: 20%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center;     /* centra verticalmente */
+}
+
+
+h3{
+    font-size: 1.5vw;
+}
+
+.imgEstructuraTesAlt{
+    max-width: 10000px;
+    min-width: 100px;
+    width: 40%;
+    height: auto;
+    flex-shrink: 0;
+    background-color: white;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+/*************** HOJA SCRAPER *********************/
+.code-wrapper {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  overflow: auto;
+  /*padding-top: 2.5em; deja espacio para el botón */
+}
+
+.code-wrapper pre {
+  margin: 0;
+  padding: 0.2em;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 0.7em;
+  right: 0.7em;
+  color: #00b894;
+  background-color: transparent;
+  border: none;
+  padding: 0.4em 0.6em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  cursor: pointer;
+  z-index: 10;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.copy-btn:hover {
+  color: #007e61;
+}
+
+.code-wrapper:hover .copy-btn {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.boton-contenedor {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.boton-descarga {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: #333;
+  text-decoration: none;
+  border: 2px solid #ccc;
+  padding: 12px 20px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: background-color 0.2s ease;
+}
+
+.boton-descarga:hover {
+  background-color: #f9f9f9;
+}
+
+.texto-archivo {
+  flex-grow: 1;
+  font-weight: bold;
+}
+
+.icono-descarga {
+  margin-left: 10px;
+  fill: #333;
+  transform: rotate(180deg);
+}
+
+
+/*************** HOJA PROGRAMA A MEDIDA DECORGOMA NET ****************/
+.imgEstructuraDecNet{
+    max-width: 10000px;
+    min-width: 100px;
+    width: 10%;
+    height: auto;
+    flex-shrink: 0;
+    background-color: transparent;
+    display: block;
+    margin: auto;
+}
+.imgEstructuraDecNetModelo{
+    max-width: 10000px;
+    min-width: 100px;
+    width: 80%;
+    height: auto;
+    flex-shrink: 0;
+    background-color: transparent;
+    display: block;
+    margin: auto;
+}
+.imgEstructuraDecNetModelo2{
+    height: 40vh;
+    flex-shrink: 0;
+    background-color: transparent;
+    display: block;
+    margin: auto;
+}
+.h1DecNet{
+  font-size: 3.5vw;
+}
