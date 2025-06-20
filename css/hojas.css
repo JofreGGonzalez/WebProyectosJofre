@@ -263,6 +263,33 @@ h3{
   transform: rotate(180deg);
 }
 
+.tabla-scroll {
+      overflow-x: auto;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: max-content;
+      min-width: 100%;
+    }
+
+    th, td {
+      border: 1px solid #aaa;
+      padding: 8px 12px;
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fafafa;
+    }
 
 /*************** HOJA PROGRAMA A MEDIDA DECORGOMA NET ****************/
 .imgEstructuraDecNet{
