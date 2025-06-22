@@ -730,7 +730,7 @@ html, body, .parallax {
 }
 
 .contelement{
-    width: 500px;
+    width: 100%;
     text-align:center;
     display: flex;
     flex-direction: row;
@@ -1118,7 +1118,7 @@ to align it properly */
     }
 
     .contactdata{
-        float: none;
+        float: left;
         margin-left: 50%;
         transform: translate(-50%,-0%);
         text-align: center;
@@ -1177,6 +1177,7 @@ to align it properly */
 
     .navBar{
         padding: 3px 2% 0;
+        height: 6%;
     }
 
     .navBar ul{
@@ -1214,5 +1215,8 @@ to align it properly */
         display: none;
     }
 
+    .ocultar-en-movil {
+        display: none;
+    }
 }
 
