@@ -116,6 +116,7 @@ h1 {
     max-width: 60%;
 }
 
+
 @media (max-width: 768px) {
     .teseracto-container {
         flex-direction: column;
@@ -315,4 +316,44 @@ h3{
 }
 .h1DecNet{
   font-size: 3.5vw;
+}
+
+/******************* PROTECT THE VILLAIN ***********************/
+
+.galeria-gifs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 1rem;
+}
+
+.galeria-gifs img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  margin: 0 auto;
+  image-rendering: pixelated;
+}
+
+.imgEstructuraTUnity{
+    max-width: 10000px;
+    min-width: 100px;
+    width: 25%;
+    height: auto;
+    flex-shrink: 0;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    image-rendering: pixelated;
+}
+
+.texto-teseracto2 {
+    flex: 1;
+    max-width: 60%;
+}
+
+.videoProtectVillein{
+  width: 100%;
 }
