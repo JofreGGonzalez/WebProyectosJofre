@@ -563,6 +563,7 @@ html, body, .parallax {
     transform: scale(calc(1 + 0.2 * var(--hl)));
     filter: brightness(calc(0.6 * (1 + var(--hl))));
     transition: 0.7s;
+    background-color: black;
 }
 .galeriaImg img:hover {
     --hl: 1 ;
@@ -601,6 +602,23 @@ html, body, .parallax {
     max-width: 70%;
     max-height: 70%;
     object-fit: cover;
+    min-width: 30%;
+}
+
+#lightbox img.pixelated,
+#lightbox2 img.pixelated {
+    image-rendering: pixelated;
+}
+
+#lightbox video, #lightbox2 video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid #fff;
+    border-radius: 5px;
+    max-width: 70%;
+    max-height: 70%;
 }
 
 /* (A6) TOGGLE VISIBILITY */

@@ -357,3 +357,17 @@ h3{
 .videoProtectVillein{
   width: 100%;
 }
+
+.videoProtectVillein80Center {
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+    height: auto;
+}
+
+.videoProtectVillein20Center {
+    display: block;
+    margin: 0 auto;
+    max-width: 20%;
+    height: auto;
+}
