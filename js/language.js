@@ -194,6 +194,7 @@ function swapLang(lan){
 }
 
 window.addEventListener("DOMContentLoaded", () => {
+    console.log("Idioma cargado");
     const savedLang = localStorage.getItem('lang') || 'es';
     swapLang(savedLang);
 });
