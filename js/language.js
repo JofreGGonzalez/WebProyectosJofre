@@ -8,7 +8,7 @@ var data = {
             "barra3":"Contacte",
             "contactaAnimacionTitulo":"Contacta'ns",
             "indiceTitulo":"BENVINGUTS",
-            "indicepresentacion1":"Hola, sóc en Jofre,",
+            "indicepresentacion1":"Hola, em dic Jofre,",
             "indicepresentacion2":"Em considero una persona proactiva i curiosa, a qui li agrada tenir sempre algun projecte en marxa. Aquesta dinàmica em permet no només posar en pràctica els coneixements adquirits, sinó també ampliar els meus coneixements i entrar en àrees de la informàtica que no havia tocat. Ja sigui desenvolupant aplicacions, investigant i provant eines noves o provant de dur a terme idees que em van sorgint, el meu objectiu sempre és seguir creixent professionalment i mantenir-me actualitzat en un camp tan ampli com és la informàtica.",
             "indicepresentacion3":"Gràcies per passar-vos per aquesta web on penjo petits projectes que vaig fent en el meu temps lliure.",
             "secondT":"Galeria",
