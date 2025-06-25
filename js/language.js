@@ -269,142 +269,18 @@ var data = {
         }
 }
 
-function swapLang(lan){
+function swapLang(lan) {
     localStorage.setItem('lang', lan);
 
-    document.querySelector('#galeriaTitle').textContent = data[lan].galeriaTitle;
-    document.querySelector('#contTitle').textContent = data[lan].contTitle;
-    document.querySelector('#barra1').textContent = data[lan].barra1;
-    document.querySelector('#barra2').textContent = data[lan].barra2;
-    document.querySelector('#barra3').textContent = data[lan].barra3;
-    document.querySelector('#contactaAnimacionTitulo').textContent = data[lan].contactaAnimacionTitulo;
-    document.querySelector('#indiceTitulo').textContent = data[lan].indiceTitulo;
-    document.querySelector('#indicepresentacion1').textContent = data[lan].indicepresentacion1;
-    document.querySelector('#indicepresentacion2').textContent = data[lan].indicepresentacion2;
-    document.querySelector('#indicepresentacion3').textContent = data[lan].indicepresentacion3;
-    document.querySelector('#secondT').textContent = data[lan].secondT;
-    document.querySelector('#fourthT').textContent = data[lan].fourthT;
-    document.querySelector('#decorgomaObjetivoTitulo').textContent = data[lan].decorgomaObjetivoTitulo;
-    document.querySelector('#decorgomaObjetivoP1').textContent = data[lan].decorgomaObjetivoP1;
-    document.querySelector('#decorgomaObjetivoP2').textContent = data[lan].decorgomaObjetivoP2;
-    document.querySelector('#decorgomaObjetivoP3').textContent = data[lan].decorgomaObjetivoP3;
-    document.querySelector('#decorgomaMotivacion').textContent = data[lan].decorgomaMotivacion;
-    document.querySelector('#decorgomaMotivacionP1').textContent = data[lan].decorgomaMotivacionP1;
-    document.querySelector('#decorgomaMotivacionP2').textContent = data[lan].decorgomaMotivacionP2;
-    document.querySelector('#decorgomaMotivacionP3').textContent = data[lan].decorgomaMotivacionP3;
-    document.querySelector('#decorgomaMotivacionP4').textContent = data[lan].decorgomaMotivacionP4;
-    document.querySelector('#decorgomaLinkP1').textContent = data[lan].decorgomaLinkP1;
-    document.querySelector('#decorgomaLinkP2').textContent = data[lan].decorgomaLinkP2;
-    document.querySelector('#decorgomaFunc').textContent = data[lan].decorgomaFunc;
-    document.querySelector('#decorgomaFuncP1').textContent = data[lan].decorgomaFuncP1;
-    document.querySelector('#decorgomaFuncP2').textContent = data[lan].decorgomaFuncP2;
-    document.querySelector('#decorgomaFuncP3').textContent = data[lan].decorgomaFuncP3;
-    document.querySelector('#decorgomaFuncP4').textContent = data[lan].decorgomaFuncP4;
-    document.querySelector('#decorgomaFuncP5').textContent = data[lan].decorgomaFuncP5;
-    document.querySelector('#decorgomaFuncP6').textContent = data[lan].decorgomaFuncP6;
-    document.querySelector('#decorgomaFuncP7').textContent = data[lan].decorgomaFuncP7;
-    document.querySelector('#decorgomaFuncP8').textContent = data[lan].decorgomaFuncP8;
-    document.querySelector('#decorgomaFuncP9').textContent = data[lan].decorgomaFuncP9;
-    document.querySelector('#decorgomaFuncP10').textContent = data[lan].decorgomaFuncP10;
-    document.querySelector('#decorgomaFuncP11').textContent = data[lan].decorgomaFuncP11;
-    document.querySelector('#decorgomaResultados').textContent = data[lan].decorgomaResultados;
-    document.querySelector('#decorgomaResultadosP1').textContent = data[lan].decorgomaResultadosP1;
-    document.querySelector('#decNeteja').textContent = data[lan].decNeteja;
-    document.querySelector('#decNetejaObj').textContent = data[lan].decNetejaObj;
-    document.querySelector('#decNetejaObjP1').textContent = data[lan].decNetejaObjP1;
-    document.querySelector('#decNetejaObjP2').textContent = data[lan].decNetejaObjP2;
-    document.querySelector('#decNetejaObjP3').textContent = data[lan].decNetejaObjP3;
-    document.querySelector('#decNetejaMotiv').textContent = data[lan].decNetejaMotiv;
-    document.querySelector('#decNetejaMotivP1').textContent = data[lan].decNetejaMotivP1;
-    document.querySelector('#decNetejaMotivP2').textContent = data[lan].decNetejaMotivP2;
-    document.querySelector('#decNetejaMod').textContent = data[lan].decNetejaMod;
-    document.querySelector('#decNetejaModP1').textContent = data[lan].decNetejaModP1;
-    document.querySelector('#decNetejaModP2').textContent = data[lan].decNetejaModP2;
-    document.querySelector('#decNetejaModP3').textContent = data[lan].decNetejaModP3;
-    document.querySelector('#decNetejaModP4').textContent = data[lan].decNetejaModP4;
-    document.querySelector('#decNetejaApp').textContent = data[lan].decNetejaApp;
-    document.querySelector('#decNetejaAppP1').textContent = data[lan].decNetejaAppP1;
-    document.querySelector('#decNetejaAppP2').textContent = data[lan].decNetejaAppP2;
-    document.querySelector('#decNetejaAppP3').textContent = data[lan].decNetejaAppP3;
-    document.querySelector('#decNetejaAppP4').textContent = data[lan].decNetejaAppP4;
-    document.querySelector('#decNetejaAppP5').textContent = data[lan].decNetejaAppP5;
-    document.querySelector('#decNetejaAppP6').textContent = data[lan].decNetejaAppP6;
-    document.querySelector('#decNetejaAppP7').textContent = data[lan].decNetejaAppP7;
-    document.querySelector('#decNetejaAppP8').textContent = data[lan].decNetejaAppP8;
-    document.querySelector('#decNetejaAppP9').textContent = data[lan].decNetejaAppP9;
-    document.querySelector('#decNetejaAppP10').textContent = data[lan].decNetejaAppP10;
-    document.querySelector('#decNetejaAppP11').textContent = data[lan].decNetejaAppP11;
-    document.querySelector('#decNetejaAppP12').textContent = data[lan].decNetejaAppP12;
-    document.querySelector('#decNetejaAppP13').textContent = data[lan].decNetejaAppP13;
-    document.querySelector('#decNetejaAppP14').textContent = data[lan].decNetejaAppP14;
-    document.querySelector('#decNetejaAppP15').textContent = data[lan].decNetejaAppP15;
-    document.querySelector('#decNetejaAppP16').textContent = data[lan].decNetejaAppP16;
-    document.querySelector('#decNetejaAppP17').textContent = data[lan].decNetejaAppP17;
-    document.querySelector('#decNetejaAppP18').textContent = data[lan].decNetejaAppP18;
-    document.querySelector('#decNetejaAppP19').textContent = data[lan].decNetejaAppP19;
-    document.querySelector('#teseractoQueEs').textContent = data[lan].teseractoQueEs;
-    document.querySelector('#teseractoQueEsP1').textContent = data[lan].teseractoQueEsP1;
-    document.querySelector('#teseractoQueEsP2').textContent = data[lan].teseractoQueEsP2;
-    document.querySelector('#teseractoObj').textContent = data[lan].teseractoObj;
-    document.querySelector('#teseractoObjP1').textContent = data[lan].teseractoObjP1;
-    document.querySelector('#teseractoObjP2').textContent = data[lan].teseractoObjP2;
-    document.querySelector('#teseractoObjP3').textContent = data[lan].teseractoObjP3;
-    document.querySelector('#teseractoMotiv').textContent = data[lan].teseractoMotiv;
-    document.querySelector('#teseractoMotivP1').textContent = data[lan].teseractoMotivP1;
-    document.querySelector('#teseractoMotivP2').textContent = data[lan].teseractoMotivP2;
-    document.querySelector('#teseractoMotivP3').textContent = data[lan].teseractoMotivP3;
-    document.querySelector('#teseractoMotivP4').textContent = data[lan].teseractoMotivP4;
-    document.querySelector('#teseractoMat').textContent = data[lan].teseractoMat;
-    document.querySelector('#teseractoMatP1').textContent = data[lan].teseractoMatP1;
-    document.querySelector('#teseractoMatP2').textContent = data[lan].teseractoMatP2;
-    document.querySelector('#teseractoMatP3').textContent = data[lan].teseractoMatP3;
-    document.querySelector('#teseractoMatP4').textContent = data[lan].teseractoMatP4;
-    document.querySelector('#teseractoCom').textContent = data[lan].teseractoCom;
-    document.querySelector('#teseractoComP1').textContent = data[lan].teseractoComP1;
-    document.querySelector('#teseractoComP2').textContent = data[lan].teseractoComP2;
-    document.querySelector('#teseractoComP3').textContent = data[lan].teseractoComP3;
-    document.querySelector('#teseractoComP4').textContent = data[lan].teseractoComP4;
-    document.querySelector('#teseractoComP5').textContent = data[lan].teseractoComP5;
-    document.querySelector('#teseractoRes').textContent = data[lan].teseractoRes;
-    document.querySelector('#teseractoResP1').textContent = data[lan].teseractoResP1;
-    document.querySelector('#teseractoResP2').textContent = data[lan].teseractoResP2;
-    document.querySelector('#scraperQueEs').textContent = data[lan].scraperQueEs;
-    document.querySelector('#scraperQueEsP1').textContent = data[lan].scraperQueEsP1;
-    document.querySelector('#scraperQueEsP2').textContent = data[lan].scraperQueEsP2;
-    document.querySelector('#scraperObj').textContent = data[lan].scraperObj;
-    document.querySelector('#scraperObjP1').textContent = data[lan].scraperObjP1;
-    document.querySelector('#scraperObjP2').textContent = data[lan].scraperObjP2;
-    document.querySelector('#scraperObjP3').textContent = data[lan].scraperObjP3;
-    document.querySelector('#scraperObjP4').textContent = data[lan].scraperObjP4;
-    document.querySelector('#scraperMotiv').textContent = data[lan].scraperMotiv;
-    document.querySelector('#scraperMotivP1').textContent = data[lan].scraperMotivP1;
-    document.querySelector('#scraperMotivP2').textContent = data[lan].scraperMotivP2;
-    document.querySelector('#scraperMotivP3').textContent = data[lan].scraperMotivP3;
-    document.querySelector('#scraperCod').textContent = data[lan].scraperCod;
-    document.querySelector('#scraperCodP1').textContent = data[lan].scraperCodP1;
-    document.querySelector('#scraperCodP2').textContent = data[lan].scraperCodP2;
-    document.querySelector('#scraperCodP3').textContent = data[lan].scraperCodP3;
-    document.querySelector('#scraperCodP4').textContent = data[lan].scraperCodP4;
-    document.querySelector('#scraperCodP5').textContent = data[lan].scraperCodP5;
-    document.querySelector('#scraperCodP6').textContent = data[lan].scraperCodP6;
-    document.querySelector('#scraperCodP7').textContent = data[lan].scraperCodP7;
-    document.querySelector('#scraperCodP8').textContent = data[lan].scraperCodP8;
-    document.querySelector('#scraperCodP9').textContent = data[lan].scraperCodP9;
-    document.querySelector('#scraperCodP10').textContent = data[lan].scraperCodP10;
-    document.querySelector('#scraperCodP11').textContent = data[lan].scraperCodP11;
-    document.querySelector('#scraperCodP12').textContent = data[lan].scraperCodP12;
-    document.querySelector('#scraperCodP13').textContent = data[lan].scraperCodP13;
-    document.querySelector('#scraperCodP14').textContent = data[lan].scraperCodP14;
-    document.querySelector('#scraperCodP15').textContent = data[lan].scraperCodP15;
-    document.querySelector('#scraperCodP16').textContent = data[lan].scraperCodP16;
-    document.querySelector('#scraperCodP17').textContent = data[lan].scraperCodP17;
-    document.querySelector('#scraperCodP18').textContent = data[lan].scraperCodP18;
-    document.querySelector('#scraperCodP19').textContent = data[lan].scraperCodP19;
-    document.querySelector('#scraperCodP20').textContent = data[lan].scraperCodP20;
-    document.querySelector('#scraperTabla').textContent = data[lan].scraperTabla;
-    document.querySelector('#scraperDesc').textContent = data[lan].scraperDesc;
-    document.querySelector('#scraperDescP1').textContent = data[lan].scraperDescP1;
-    document.querySelector('#scraperDescP2').textContent = data[lan].scraperDescP2;
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        const text = data[lan][key];
+        if (text !== undefined) {
+            el.textContent = text;
+        } else {
+            console.warn(`Traducción no encontrada para clave: "${key}"`);
+        }
+    });
 }
 
 window.onload = () => {
@@ -413,8 +289,6 @@ window.onload = () => {
 };
 
 window.addEventListener("DOMContentLoaded", () => {
-    console.log("Idioma cargado");
-    console.log("Valor guardado en localStorage:", localStorage.getItem('lang'));
     const savedLang = localStorage.getItem('lang') || 'es';
     swapLang(savedLang);
 });
