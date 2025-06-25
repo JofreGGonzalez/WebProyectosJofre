@@ -31,15 +31,15 @@
         <!--Panel lateral-->
         <div id="menuLateral"></div>
 
-        <h1>Scraper para web de One Piece</h1>
+        <h1 data-i18n="scraperTitol">Scraper para web de One Piece</h1>
 
         <section class="seccion mostrar">
-            <h2 class="seccion-titulo" id="scraperQueEs">¿Que es?<span class="flecha">▼</span></h2>
+            <h2 class="seccion-titulo"><span data-i18n="scraperQueEs">¿Que es?</span><span class="flecha">▼</span></h2>
             <div class="seccion-contenido">
                 <div class="teseracto-container">
                     <div class="texto-teseracto">
-                        <p id="scraperQueEsP1">Un scraper es un programa informático o una herramienta que se utiliza para extraer datos de páginas web de forma automática.</p>
-                        <p id="scraperQueEsP2">Funciona como un robot que simula la navegación de un usuario para recopilar información.</p>
+                        <p data-i18n="scraperQueEsP1">Un scraper es un programa informático o una herramienta que se utiliza para extraer datos de páginas web de forma automática.</p>
+                        <p data-i18n="scraperQueEsP2">Funciona como un robot que simula la navegación de un usuario para recopilar información.</p>
                     </div>
 
                     <img src="../imagenes/Scraper/Scraper01.png"  class="imgEstructuraTes noBackgr widt15 ocultar-en-movil">
@@ -48,145 +48,145 @@
         </section>
 
         <section class="seccion mostrar">
-            <h2 class="seccion-titulo" id="scraperObj">Objetivo<span class="flecha">▼</span></h2>
+            <h2 class="seccion-titulo"><span data-i18n="scraperObj">Objetivo</span><span class="flecha">▼</span></h2>
             <div class="seccion-contenido">
                 <div class="teseracto-container">
                     <img src="../imagenes/Scraper/Luffy.png" class="imgEstructuraTes noBackgr widt25 ocultar-en-movil">
                     <div class="texto-teseracto">
-                        <p id="scraperObjP1">El objetivo de éste proyecto es crear un scraper para la web <a href="https://onepiece.fandom.com/wiki/One_Piece_Wiki">https://onepiece.fandom.com/wiki/One_Piece_Wiki</a>.</p>
-                        <p id="scraperObjP2">Se quiere recopilar información sobre todos los personajes (nombres, edades, habilidades, apariciones…) y almacenar esta información en archivos Excel o CSV para posteriormente usarla en futuros proyectos.</p>
-                        <p id="scraperObjP3">El proyecto no solo va a constar de un scraper, sino que también se hará un postprocesado de los datos para limpiarlos y dejarlos con coherencia.</p>
-                        <p id="scraperObjP4">Su creación servirá para aprender el funcionamiento de un scraper y cómo programarlo. También será de utilidad para poner en práctica técnicas de postprocesado aprendidas en el grado universitario.</p>
+                        <p><span data-i18n="scraperObjP1">El objetivo de éste proyecto es crear un scraper para la web </span><a href="https://onepiece.fandom.com/wiki/One_Piece_Wiki">https://onepiece.fandom.com/wiki/One_Piece_Wiki</a>.</p>
+                        <p data-i18n="scraperObjP2">Se quiere recopilar información sobre todos los personajes (nombres, edades, habilidades, apariciones…) y almacenar esta información en archivos Excel o CSV para posteriormente usarla en futuros proyectos.</p>
+                        <p data-i18n="scraperObjP3">El proyecto no solo va a constar de un scraper, sino que también se hará un postprocesado de los datos para limpiarlos y dejarlos con coherencia.</p>
+                        <p data-i18n="scraperObjP4">Su creación servirá para aprender el funcionamiento de un scraper y cómo programarlo. También será de utilidad para poner en práctica técnicas de postprocesado aprendidas en el grado universitario.</p>
                      </div>
                 </div>
             </div>
         </section>
 
         <section class="seccion mostrar">
-            <h2 class="seccion-titulo" id="scraperMotiv">Motivación<span class="flecha">▼</span></h2>
+            <h2 class="seccion-titulo"><span data-i18n="scraperMotiv">Motivación</span><span class="flecha">▼</span></h2>
             <div class="seccion-contenido">
                 <ul>
-                    <li><p id="scraperMotivP1">Aprender a programar un scraper</p></li>
-                    <li><p id="scraperMotivP2">Poner en práctica habilidades de postprocesado de datos</p></li>
-                    <li><p id="scraperMotivP3">Poner en práctica mis conocimientos en programación en Python y en librerías muy útiles como NumPy o Pandas.</p></li>
+                    <li><p data-i18n="scraperMotivP1">Aprender a programar un scraper</p></li>
+                    <li><p data-i18n="scraperMotivP2">Poner en práctica habilidades de postprocesado de datos</p></li>
+                    <li><p data-i18n="scraperMotivP3">Poner en práctica mis conocimientos en programación en Python y en librerías muy útiles como NumPy o Pandas.</p></li>
                 </ul>
             </div>
         </section>
 
         <section class="seccion mostrar">
-            <h2 class="seccion-titulo" id="scraperCod">Código<span class="flecha">▼</span></h2>
+            <h2 class="seccion-titulo"><span data-i18n="scraperCod">Código</span><span class="flecha">▼</span></h2>
             <div class="seccion-contenido">
-                <p id="scraperCodP1">Para el desarrollo del scraper se ha usado el lenguaje de programación Python y el programa Jupyter Notebook. A continuación, vamos a ver paso a paso cómo se ha creado el scraper.</p>
+                <p data-i18n="scraperCodP1">Para el desarrollo del scraper se ha usado el lenguaje de programación Python y el programa Jupyter Notebook. A continuación, vamos a ver paso a paso cómo se ha creado el scraper.</p>
                 
                 <ol>
                     <li>
-                        <p id="scraperCodP2">Importamos las librerías que vamos a usar:</p>
+                        <p data-i18n="scraperCodP2">Importamos las librerías que vamos a usar:</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso1"></code></pre>
                         </div>
                     </li>
                     <li>
-                        <p id="scraperCodP3">Definimos las variables que usaremos continuamente:</p>
+                        <p data-i18n="scraperCodP3">Definimos las variables que usaremos continuamente:</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso2"></code></pre>
                         </div>
                     </li>
                     <li>
-                        <p id="scraperCodP4">Definimos el conjunto de funciones que extraerán los datos que queremos de la página web, es decir, estas funciones serán el core de nuestro scraper. Como dependiendo de la hoja que queramos extraer datos va a tener un código fuente diferente, vamos a crear múltiples funciones dependiendo de la información que queramos extraer:</p>
-                        <p id="scraperCodP5">La función Personajes obtendrá toda la información personal de los personajes, a excepción del Haki, Raza, Género y Categoría, debido a que su información es de difícil acceso:</p>
+                        <p data-i18n="scraperCodP4">Definimos el conjunto de funciones que extraerán los datos que queremos de la página web, es decir, estas funciones serán el core de nuestro scraper. Como dependiendo de la hoja que queramos extraer datos va a tener un código fuente diferente, vamos a crear múltiples funciones dependiendo de la información que queramos extraer:</p>
+                        <p data-i18n="scraperCodP5">La función Personajes obtendrá toda la información personal de los personajes, a excepción del Haki, Raza, Género y Categoría, debido a que su información es de difícil acceso:</p>
 
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso3"></code></pre>
                         </div>
 
-                        <p id="scraperCodP6">La función PersonajesGenero, obtendrá el Género de todos los personajes:</p>
+                        <p data-i18n="scraperCodP6">La función PersonajesGenero, obtendrá el Género de todos los personajes:</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso5"></code></pre>
                         </div>
 
-                        <p id="scraperCodP7">La función PersonajesHaki obtendrá qué usuarios tienen haki y de qué tipo:</p>
+                        <p data-i18n="scraperCodP7">La función PersonajesHaki obtendrá qué usuarios tienen haki y de qué tipo:</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso6"></code></pre>
                         </div>
 
-                        <p id="scraperCodP8">La función RazasPersonajes, obtendrá la Raza de cada personaje de One Piece:</p>
+                        <p data-i18n="scraperCodP8">La función RazasPersonajes, obtendrá la Raza de cada personaje de One Piece:</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso8"></code></pre>
                         </div>
                     </li>
                     <li>
-                        <p id="scraperCodP9">Obtenemos los personajes Cannon y No Cannon y lo guardamos en Excels (lo hace la própia función):</p>
+                        <p data-i18n="scraperCodP9">Obtenemos los personajes Cannon y No Cannon y lo guardamos en Excels (lo hace la própia función):</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso9"></code></pre>
                         </div>
                     </li>
                     <li>
-                        <p id="scraperCodP10">Obtenemos el Género de todos los personajes:</p>
+                        <p data-i18n="scraperCodP10">Obtenemos el Género de todos los personajes:</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso10"></code></pre>
                         </div>
                     </li>
                     <li>
-                        <p id="scraperCodP11">Obtenemos los personajes que tienen haki y cuál, y los guardamos en Excel:</p>
+                        <p data-i18n="scraperCodP11">Obtenemos los personajes que tienen haki y cuál, y los guardamos en Excel:</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso11"></code></pre>
                         </div>
-                        <p id="scraperCodP12">Obtenemos las Razas de los personajes, y lo guardamos en Excels:</p>
+                        <p data-i18n="scraperCodP12">Obtenemos las Razas de los personajes, y lo guardamos en Excels:</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso12"></code></pre>
                         </div>
                     </li>
                     <li>
-                        <p id="scraperCodP13">Ahora entraremos en el tratamiento de datos y la unión de todos los datos:</p>
+                        <p data-i18n="scraperCodP13">Ahora entraremos en el tratamiento de datos y la unión de todos los datos:</p>
 
-                        <p id="scraperCodP14">Para ello primero definiremos 3 funciones para tratar las recompensas (extraer_mayor_recompensa), para tratar la edad de los personajes (extract_max_age) y el tratamiento de la altura (extraer_ultima_altura):</p>
+                        <p data-i18n="scraperCodP14">Para ello primero definiremos 3 funciones para tratar las recompensas (extraer_mayor_recompensa), para tratar la edad de los personajes (extract_max_age) y el tratamiento de la altura (extraer_ultima_altura):</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso13"></code></pre>
                         </div>
                         
 
-                        <p id="scraperCodP15">A continuación, vamos a leer todos los ficheros Excel y guardarlos en diferentes variables:</p>
+                        <p data-i18n="scraperCodP15">A continuación, vamos a leer todos los ficheros Excel y guardarlos en diferentes variables:</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso14"></code></pre>
                         </div>
 
-                        <p id="scraperCodP16">Ahora vamos a realizar el tratamiento de datos de los personajes No Cannon:</p>
+                        <p data-i18n="scraperCodP16">Ahora vamos a realizar el tratamiento de datos de los personajes No Cannon:</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso15"></code></pre>
                         </div>
 
-                        <p id="scraperCodP17">Ahora el tratamiento de los personajes Cannon que es igual que el de los No Cannon:</p>
+                        <p data-i18n="scraperCodP17">Ahora el tratamiento de los personajes Cannon que es igual que el de los No Cannon:</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso16"></code></pre>
                         </div>
 
-                        <p id="scraperCodP18">Finalmente unimos los 2 dataset con los personajes Cannon y no Cannon y creamos una columna para saber si ese personaje es Cannon o no:</p>
+                        <p data-i18n="scraperCodP18">Finalmente unimos los 2 dataset con los personajes Cannon y no Cannon y creamos una columna para saber si ese personaje es Cannon o no:</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso17"></code></pre>
                         </div>
 
-                        <p id="scraperCodP19">Guardamos todo en un Excel:</p>
+                        <p data-i18n="scraperCodP19">Guardamos todo en un Excel:</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso19"></code></pre>
                         </div>
 
-                        <p id="scraperCodP20">Addicionalmente, si queremos ver un resumen general de nuestros datos, podemos hacer lo siguiente:</p>
+                        <p data-i18n="scraperCodP20">Addicionalmente, si queremos ver un resumen general de nuestros datos, podemos hacer lo siguiente:</p>
                         <div class="code-wrapper">
                             <button class="copy-btn" onclick="copiarCodigo(this)">Copiar</button>
                             <pre><code class="language-python" id="codigoPaso18"></code></pre>
@@ -198,7 +198,7 @@
         </section>
 
         <section class="seccion mostrar">
-            <h2 class="seccion-titulo" id="scraperTabla">Tabla Excel final<span class="flecha">▼</span></h2>
+            <h2 class="seccion-titulo"><span data-i18n="scraperTabla">Tabla Excel final</span><span class="flecha">▼</span></h2>
             <div class="seccion-contenido">
                 <div class="tabla-scroll">
                     <table>
@@ -332,11 +332,11 @@
         </section>
 
         <section class="seccion mostrar">
-            <h2 class="seccion-titulo" id="scraperDesc">Descarga los Excels<span class="flecha">▼</span></h2>
+            <h2 class="seccion-titulo"><span data-i18n="scraperDesc">Descarga los Excels</span><span class="flecha">▼</span></h2>
             <div class="seccion-contenido">
                 <div class="boton-contenedor">
                     <a href="../Download/OnePieceScraper.zip" download class="boton-descarga">
-                        <span class="texto-archivo" id="scraperDescP1">Excels antes del tratamiento</span>
+                        <span class="texto-archivo" data-i18n="scraperDescP1">Excels antes del tratamiento</span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="icono-descarga" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
                             <path d="M5 20h14v-2H5v2zm7-18L5.33 9h4.17v6h4V9h4.17L12 2z"/>
                         </svg>
@@ -344,7 +344,7 @@
                 </div>
                 <div class="boton-contenedor">
                     <a href="../Download/PostProcesado.zip" download class="boton-descarga">
-                        <span class="texto-archivo" id="scraperDescP2">Excel post tratamiento</span>
+                        <span class="texto-archivo" data-i18n="scraperDescP2">Excel post tratamiento</span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="icono-descarga" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
                             <path d="M5 20h14v-2H5v2zm7-18L5.33 9h4.17v6h4V9h4.17L12 2z"/>
                         </svg>
