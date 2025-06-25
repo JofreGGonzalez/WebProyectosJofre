@@ -407,6 +407,11 @@ function swapLang(lan){
     document.querySelector('#scraperDescP2').textContent = data[lan].scraperDescP2;
 }
 
+window.onload = () => {
+    const savedLang = localStorage.getItem('lang') || 'es';
+    swapLang(savedLang);
+};
+
 window.addEventListener("DOMContentLoaded", () => {
     console.log("Idioma cargado");
     console.log("Valor guardado en localStorage:", localStorage.getItem('lang'));
